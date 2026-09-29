@@ -1,0 +1,33 @@
+//
+// Contact section styling
+//
+
+// Responsive map embed wrapper.
+.map-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; // 16:9
+    iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }
+}
+
+section#contact {
+    background-color: $gray-900;
+    color: $white;
+
+    a {
+        position: relative;
+        z-index: 1;
+    }
+
+    .section-heading {
+        color: $white;
+    }
+}

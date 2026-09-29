@@ -1,0 +1,33 @@
+//
+// Trial offer callout box
+//
+
+.offer-box {
+    max-width: 36rem;
+    margin: 0 auto;
+    text-align: center;
+    padding: 3rem 2rem;
+    background-color: $white;
+    border: 2px solid $primary;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.08);
+
+    h3 {
+        font-family: $headings-font-family;
+        font-weight: $headings-font-weight;
+        letter-spacing: $headings-letter-spacing;
+        margin-bottom: 1rem;
+    }
+
+    .offer-desc {
+        font-size: 1.1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .offer-note {
+        font-size: 0.9rem;
+        font-style: italic;
+        color: $gray-600;
+        margin-bottom: 1.75rem;
+    }
+}

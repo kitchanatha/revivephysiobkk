@@ -1,0 +1,52 @@
+//
+// Masthead (hero) section styling
+//
+
+header.masthead {
+    position: relative;
+    padding-top: 6rem + 4.5rem;
+    padding-bottom: 6rem;
+    background-image: linear-gradient(rgba(20, 16, 14, 0.55), rgba(20, 16, 14, 0.7)), url("../assets/img/pilates.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center 30%;
+    background-size: cover;
+    color: $white;
+    text-align: center;
+
+    .masthead-inner {
+        max-width: 40rem;
+        margin: 0 auto;
+    }
+
+    .masthead-eyebrow {
+        text-transform: uppercase;
+        letter-spacing: $headings-letter-spacing;
+        font-family: $headings-font-family;
+        font-weight: $headings-font-weight;
+        color: $primary;
+        font-size: 0.95rem;
+        margin-bottom: 1rem;
+    }
+
+    .masthead-heading {
+        font-size: clamp(1.65rem, 0.9rem + 5vw, 3.25rem);
+        font-weight: 700;
+        line-height: 1.2;
+        margin-bottom: 1.5rem;
+        font-family: $headings-font-family;
+    }
+
+    .masthead-subheading {
+        font-size: clamp(1rem, 0.7rem + 1vw, 1.25rem);
+        line-height: 1.6;
+        margin-bottom: 0;
+    }
+}
+
+@include media-breakpoint-up(md) {
+    header.masthead {
+        padding-top: 10rem + 4.5rem;
+        padding-bottom: 10rem;
+    }
+}

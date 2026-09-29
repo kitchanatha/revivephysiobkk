@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "title": "Revive Physio Clinic | Physiotherapy & Private Pilates in Bangkok",
+    "description": "Revive Physio Clinic at Hub 24, Ramkhamhaeng — physiotherapy and private Pilates led by licensed physical therapists. Rehab, pregnancy, elderly and sport care.",
+    "ogLocale": "en_US"
+  },
+
+  "hero": {
+    "eyebrow": "We Make Your Health Our Priority",
+    "h1": "Physiotherapy & Private Pilates in Bangkok",
+    "sub": "At Revive Physio Clinic, we make sure to offer you the highest quality of Physio Therapy and Private Pilates classes.",
+    "ctaPrimary": "Book on LINE",
+    "ctaSecondary": "Call Us"
+  },
+
+  "strength": {
+    "heading": "Our Strength",
+    "text": "Harnessing our instructors' physiotherapy expertise, we excel in not only rehabilitation but also in promoting overall well-being, including sports performance, injury prevention, and general exercise care for our clients at Revive Physio Clinic."
+  },
+
+  "services": [
+    {
+      "title": "Physio Therapy",
+      "desc": "Physiotherapy can help improve or restore mobility, strength, movement, range of motion, and overall functioning, decrease pain and prevent further injuries. It can help with persistent pain including chronic pain, acute pain, nerve pain, office syndrome, post-surgical complications, and sport injuries."
+    },
+    {
+      "title": "Private Pilates",
+      "desc": "Pilates can help increase muscle strength, endurance and flexibility, and improve posture and balance. Aside from the traditional private Pilates session, we also offer 4 types of private Pilates services below."
+    }
+  ],
+
+  "pilatesTypes": [
+    {
+      "title": "Pregnancy Pilates",
+      "desc": "Private Pilates session tailor made for pregnancy. Suitable for pregnancy during the 2nd and 3rd trimester."
+    },
+    {
+      "title": "Elderly Pilates",
+      "desc": "Private Pilates low-impact session tailor made for the elderly. Suitable for people who have limited mobility or joint pain due to aging."
+    },
+    {
+      "title": "Rehabilitation Pilates",
+      "desc": "Private Pilates session tailor made to help you heal and return to balance. Suitable for problems including scoliosis, post-surgery rehab, joint rehab, and chronic pain management."
+    },
+    {
+      "title": "Duo Pilates",
+      "desc": "The more the merrier. We offer a Duo Private Pilates session, suitable for people who want to bring a family member or friend to work out together."
+    }
+  ],
+
+  "offer": {
+    "title": "New Client Trial Promotion",
+    "desc": "3,999 THB for 3 sessions — only 1,333 THB per session.",
+    "note": "Choose between Physiotherapy or Private Pilates. Message us on LINE to confirm current pricing before booking.",
+    "cta": "Book Your Trial on LINE"
+  },
+
+  "gallery": [
+    { "file": "clinic-1.jpg", "alt": "Physical therapist performing ultrasound therapy on a client's arm at Revive Physio Clinic" },
+    { "file": "pilates.jpg", "alt": "Client doing a lunge exercise on a Pilates reformer step chair at Revive Physio Clinic" },
+    { "file": "clinic-2.jpg", "alt": "Instructor guiding a pregnant client through a reformer exercise, an example of Pregnancy Pilates at Revive Physio Clinic" },
+    { "file": "clinic-3.jpg", "alt": "Client performing an inverted stretch on the Cadillac trapeze table in front of the Revive Physio Clinic wall sign" },
+    { "file": "clinic-4.jpg", "alt": "Posture and spinal alignment analysis during a Pilates session at Revive Physio Clinic" },
+    { "file": "clinic-5.jpg", "alt": "Two clients doing a duo Pilates session on chair equipment at Revive Physio Clinic" },
+    { "file": "clinic-6.jpg", "alt": "Two clients doing a duo Pilates chair exercise at Revive Physio Clinic" }
+  ],
+
+  "location": {
+    "heading": "Our Location",
+    "address": "Hub 24, 2/4, Soi. Ramkhamhaeng 24 Yaek 28, Hua Mak, Bang Kapi District, Bangkok, 10240",
+    "hours": [
+      { "days": "Monday – Friday", "time": "8:00 – 19:00" },
+      { "days": "Saturday – Sunday", "time": "8:00 – 18:00" }
+    ],
+    "hoursNote": "Closed only on New Year's Day and Thailand New Year (Songkran)."
+  },
+
+  "contact": {
+    "email": "revivephysiobkk@gmail.com",
+    "phone": "093-636-9746",
+    "line": "@revivephysiobkk",
+    "facebook": "https://www.facebook.com/search/top?q=Revive%20Physio%20Clinic",
+    "instagram": "@revivephysiobkk"
+  }
+}

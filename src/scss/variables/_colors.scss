@@ -1,0 +1,14 @@
+//
+// Colors
+//
+
+// Brand color sampled from the recovered logo (src/assets/img/logo.png) —
+// a warm taupe, with the logo's small cross accent picked up as $danger
+// for consistency wherever a red highlight is needed.
+
+$taupe: #b49c86;
+
+$primary: $taupe;
+$danger: #d6483f;
+
+$min-contrast-ratio: 1.5;

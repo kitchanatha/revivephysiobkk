@@ -1,0 +1,38 @@
+{
+    "title": "Revive Physio Clinic",
+    "name": "revivephysiobkk",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "build": "npm run clean && npm run build:pug && npm run build:scss && npm run build:scripts && npm run build:assets && npm run build:seo",
+        "build:assets": "node scripts/build-assets.js",
+        "build:pug": "node scripts/build-pug.js",
+        "build:scripts": "node scripts/build-scripts.js",
+        "build:scss": "node scripts/build-scss.js",
+        "build:seo": "node scripts/build-seo-files.js",
+        "clean": "node scripts/clean.js",
+        "start": "npm run build && node scripts/start.js"
+    },
+    "description": "Website for Revive Physio Clinic, a physiotherapy and private Pilates clinic at Hub 24, Ramkhamhaeng, Bangkok.",
+    "homepage": "https://revivephysiobkk.com",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kitchanatha/revivephysiobkk.git"
+    },
+    "dependencies": {
+        "bootstrap": "5.2.3"
+    },
+    "devDependencies": {
+        "autoprefixer": "10.4.14",
+        "browser-sync": "^3.0.4",
+        "chokidar": "3.5.3",
+        "concurrently": "6.3.0",
+        "postcss": "^8.5.6",
+        "prettier": "2.8.6",
+        "pug": "^3.0.3",
+        "sass": "1.60.0",
+        "shelljs": "0.8.5",
+        "upath": "2.0.1"
+    }
+}
